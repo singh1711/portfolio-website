@@ -1,0 +1,84 @@
+.home{
+    margin: 0 auto;
+    position: relative;
+}
+
+.bg{
+    border-radius: 50%;
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+    z-index: -1;
+    height: 60vh;
+    width: 300px;
+    object-fit: cover;
+}
+.homeContent{
+    height: 80.5vh;
+    width: 100vw;
+    margin: 0 4rem;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+.name{
+    color: yellowgreen;
+}
+.content{
+    font-size: medium;
+    font-weight: 100;
+}
+.btn{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.3rem;
+    border: none;
+    border-radius: 2rem;
+    width: 100px;
+}
+
+.home::after,
+.home::before{
+    content: " ";
+    width: 28rem;
+    height: 28rem;
+    border-radius: 28.125rem;
+    background: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    filter: blur(200px);
+}
+.home::after{
+    top: -3rem;
+    left: -5rem;
+}
+.home::before{
+    background: #9e51b9;
+    bottom: 0rem;
+    right: 0rem;
+}
+@media screen and (max-width:840px){
+    .homeContent{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}
+@media screen and (max-width:480px) {
+    .bg{
+        right:-5px;
+    }
+}
+@media screen and (max-width:40px) {
+    .bg{
+        right: -5px;
+    }
+}
