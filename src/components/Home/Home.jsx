@@ -16,7 +16,7 @@ function Home() {
                 <button className='btn'><Link to="https://drive.google.com/file/d/1eTH_XCu2JM8qIhSlN2yadDWO0FyxnO8b/view?usp=sharing">Resume</Link></button>
             </div>
             
-            <img src="./src/assets/Abhishek_PP_New.JPG" alt="" className='bg'/>
+            <img src="src/assets/Abhishek_PP_New.JPG" alt="" className='bg'/>
             
         </section>
         <Footer/>

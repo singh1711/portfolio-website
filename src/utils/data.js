@@ -1,7 +1,7 @@
 export const SKILLS =[
     {
         tittle:"Languages:",
-        icon:"src/assets/programming.png",
+        icon:"./src/assets/programming.png",
         skills:[
             {skill:"C", percentage: "50%"},
             {skill:"C++", percentage: "50%"},
@@ -13,7 +13,7 @@ export const SKILLS =[
     },
     {
         tittle:"Frameworks",
-        icon:"src/assets/framework.png",
+        icon:"./src/assets/framework.png",
         skills:[
             {skill:"React.js", percentage: "70%"},
             {skill:"Node.js", percentage: "70%"},
@@ -24,7 +24,7 @@ export const SKILLS =[
     },
     {
         tittle:"Tools",
-        icon:"src/assets/tools.png",
+        icon:"./src/assets/tools.png",
         skills:[
             {skill:"Git/Github", percentage: "70%"},
             {skill:"Postman", percentage: "70%"},
@@ -36,7 +36,7 @@ export const SKILLS =[
     },
     {
         tittle:"Libraries",
-        icon:"src/assets/online-library.png",
+        icon:"./src/assets/online-library.png",
         skills:[
             {skill:"Bootstrap", percentage: "70%"},
             {skill:"Mongoose", percentage: "50%"}

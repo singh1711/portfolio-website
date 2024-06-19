@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <nav className='navbar'>
-        <img src="src\assets\a.png" alt="logo" />
+        <img src="./src/assets/a.png" alt="logo" />
         <div className="menu">
                 <Link to="/">HOME</Link>
                 <Link to="/skill">SKILL</Link>
